@@ -1356,3 +1356,76 @@
     width: 270px;
   }
 }
+
+
+
+.cookie-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.cookie-btn {
+  flex: 1;
+  min-width: 120px;
+  padding: 10px 15px;
+  border: 1px solid #fbd846;
+  border-radius: 5px;
+  background: #fff;
+  color: #333;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cookie-btn:hover {
+  background: #fbd846;
+}
+
+.call__card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.call__card input {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid rgb(176, 176, 176);
+  border-radius: 30px;
+  padding-left: 26px;
+  color: rgb(51, 51, 51);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.call__card input:focus {
+  border: 1px solid rgb(251, 216, 70);
+  outline: none;
+}
+
+.call__card input::placeholder {
+  color: rgb(176, 176, 176);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@media (max-width: 650px) {
+  .call__card {
+    width: 345px;
+    height: auto;
+    padding: 16px 15px 29px;
+  }
+
+  .cookie-buttons {
+    flex-direction: column;
+  }
+
+  .cookie-btn {
+    width: 100%;
+  }
+}

@@ -2,7 +2,6 @@
   opacity: 1;
   visibility: visible;
 }
-
 body.lock,
 body.lock-b {
   overflow: hidden;
@@ -28,14 +27,12 @@ body.lock-b {
   font-weight: 400;
   line-height: 20px;
 }
-
 .popup__btn::placeholder {
   color: rgb(176, 176, 176);
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
 }
-
 .popup {
   position: fixed;
   width: 100%;
@@ -47,7 +44,6 @@ body.lock-b {
   z-index: 9999;
   visibility: hidden;
 }
-
 .popup__body {
   z-index: 9999;
   min-height: 100%;
@@ -55,7 +51,6 @@ body.lock-b {
   align-items: center;
   justify-content: center;
 }
-
 .background__modal-window {
   visibility: hidden;
   position: fixed;
@@ -67,7 +62,6 @@ body.lock-b {
   left: 0;
   overflow: hidden;
 }
-
 .call__card {
   position: relative;
   display: flex;
@@ -77,7 +71,6 @@ body.lock-b {
   padding: 29px 0 21px 33px;
   border-radius: 10px;
   background: rgb(255, 255, 255);
-
   h1 {
     color: rgb(0, 0, 0);
     font-size: 28px;
@@ -85,7 +78,6 @@ body.lock-b {
     line-height: 34px;
     margin-bottom: 51px;
   }
-
   p {
     display: flex;
     gap: 12px;
@@ -97,12 +89,10 @@ body.lock-b {
     line-height: 30px;
     margin-bottom: 52px;
   }
-
   form {
     display: flex;
     flex-direction: column;
   }
-
   input {
     width: 490px;
     height: 66px;
@@ -116,18 +106,15 @@ body.lock-b {
     font-weight: 400;
     line-height: 20px;
   }
-
   input:focus {
     border: 1px solid rgb(251, 216, 70);
   }
-
   input::placeholder {
     color: rgb(176, 176, 176);
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
   }
-
   .btn__modal {
     display: block;
     text-align: center;
@@ -140,9 +127,11 @@ body.lock-b {
 
     border-radius: 30px;
     box-shadow: 5px 8px 5px 0px rgba(248, 204, 85, 0.1);
-    background: linear-gradient(268.28deg,
-        rgb(251, 216, 70) 0.021%,
-        rgb(255, 232, 136) 99.967%);
+    background: linear-gradient(
+      268.28deg,
+      rgb(251, 216, 70) 0.021%,
+      rgb(255, 232, 136) 99.967%
+    );
 
     color: rgb(0, 0, 0);
     font-size: 20px;
@@ -151,7 +140,6 @@ body.lock-b {
 
     margin-bottom: 20px;
   }
-
   span {
     display: block;
     width: 490px;
@@ -161,13 +149,11 @@ body.lock-b {
     font-weight: 400;
     line-height: 15px;
     text-align: center;
-
     a {
       text-decoration: underline;
       text-decoration-color: rgb(115, 115, 115);
     }
   }
-
   .call__close {
     position: absolute;
     cursor: pointer;
@@ -175,7 +161,6 @@ body.lock-b {
     right: 33px;
   }
 }
-
 .call {
   visibility: hidden;
   top: 0;
@@ -189,7 +174,6 @@ body.lock-b {
   align-items: center;
   justify-content: center;
 }
-
 .modal-success {
   position: relative;
   width: 555px;
@@ -197,12 +181,10 @@ body.lock-b {
   border-radius: 10px;
   background: rgb(255, 255, 255);
   padding-top: 18px;
-
   img {
     display: block;
     margin: 0 auto;
   }
-
   h1 {
     color: rgb(0, 0, 0);
     font-size: 28px;
@@ -211,7 +193,6 @@ body.lock-b {
     text-align: center;
     margin-bottom: 34px;
   }
-
   p {
     margin: 0 auto;
     max-width: 485px;
@@ -221,14 +202,12 @@ body.lock-b {
     line-height: 22px;
     text-align: center;
   }
-
   .success__btn {
     position: absolute;
     top: 28px;
     right: 33px;
   }
 }
-
 /* #popup4 {
   opacity: 1;
   visibility: visible;
@@ -237,12 +216,10 @@ body.lock-b {
   width: 118px;
   height: 34px;
 }
-
 #material__down-1 {
   width: 119px;
   height: 73px;
 }
-
 .material__bg {
   position: relative;
   display: flex;
@@ -251,7 +228,6 @@ body.lock-b {
   width: 555px;
   height: 581px;
   padding: 29px 0 28px 32px;
-
   span {
     display: flex;
     align-items: center;
@@ -264,12 +240,10 @@ body.lock-b {
     box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.05);
     background: rgb(255, 255, 255);
     margin-bottom: 34px;
-
     img {
       width: 95px;
       height: 83px;
     }
-
     p {
       width: 308px;
 
@@ -281,16 +255,17 @@ body.lock-b {
       text-transform: uppercase;
     }
   }
-
   .material__call {
     width: 490px;
     padding: 24px 0;
 
     border-radius: 30px;
     box-shadow: 5px 5px 10px 5px rgba(248, 204, 85, 0.1);
-    background: linear-gradient(268.28deg,
-        rgb(251, 216, 70) 0.021%,
-        rgb(255, 232, 136) 99.967%);
+    background: linear-gradient(
+      268.28deg,
+      rgb(251, 216, 70) 0.021%,
+      rgb(255, 232, 136) 99.967%
+    );
 
     color: rgb(0, 0, 0);
     font-size: 20px;
@@ -299,7 +274,6 @@ body.lock-b {
     text-align: center;
     margin-bottom: 13px;
   }
-
   p {
     width: 490px;
     color: rgb(115, 115, 115);
@@ -308,14 +282,12 @@ body.lock-b {
     line-height: 15px;
     text-align: center;
   }
-
   .material__close {
     position: absolute;
     top: 28px;
     right: 33px;
   }
 }
-
 .popular-modal__popup {
   display: flex;
   gap: 20px;
@@ -326,19 +298,16 @@ body.lock-b {
   width: 945px;
   height: 623.55px;
 }
-
 .popular-modal__close {
   position: absolute;
   top: 14px;
   right: 39px;
 }
-
 .material__input {
   width: 490px;
   height: 66px;
   margin-bottom: 34px;
 }
-
 .material__title-modal {
   text-align: left;
   margin-bottom: 41px;
@@ -351,13 +320,11 @@ body.lock-b {
   line-height: 29px;
   margin-bottom: 32px;
 }
-
 .modal__right {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
 .modal__row {
   display: flex;
   justify-content: space-between;
@@ -376,7 +343,6 @@ body.lock-b {
     line-height: 30px;
     text-align: center;
   }
-
   .active-tab {
     border: 1px solid rgb(153, 203, 56);
     background-color: #fff;
@@ -384,25 +350,20 @@ body.lock-b {
     color: rgb(153, 203, 56);
   }
 }
-
 .modal__row {
   margin-bottom: 38px;
 }
-
 .modal-tabs-wrapper .hidden-tab-content {
   display: none;
 }
-
 .modal__down {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
-
 .modal__price {
   display: flex;
   flex-direction: column;
-
   span:first-child {
     color: rgb(176, 176, 176);
     font-size: 20px;
@@ -410,7 +371,6 @@ body.lock-b {
     line-height: 24px;
     text-decoration-line: line-through;
   }
-
   span:last-child {
     color: rgb(153, 203, 56);
     font-size: 30px;
@@ -418,16 +378,17 @@ body.lock-b {
     line-height: 37px;
   }
 }
-
 .modal__btn {
   width: 273.94px;
   height: 54.91px;
   padding-top: 16px;
   border-radius: 30px;
   box-shadow: 10px 10px 20px 0px rgba(255, 216, 111, 0.4);
-  background: linear-gradient(268.28deg,
-      rgb(251, 216, 70) 0.046%,
-      rgb(255, 232, 136) 99.928%);
+  background: linear-gradient(
+    268.28deg,
+    rgb(251, 216, 70) 0.046%,
+    rgb(255, 232, 136) 99.928%
+  );
 
   color: rgb(51, 51, 51);
   font-size: 20px;
@@ -445,7 +406,6 @@ body.lock-b {
 
   border-radius: 10px;
   background: rgb(255, 255, 255);
-
   h1 {
     color: rgb(34, 34, 34);
     font-size: 24px;
@@ -453,7 +413,6 @@ body.lock-b {
     line-height: 29px;
     margin-bottom: 35px;
   }
-
   span {
     display: flex;
     gap: 23px;
@@ -463,11 +422,9 @@ body.lock-b {
     background: rgb(255, 255, 255);
     margin-bottom: 30px;
   }
-
   form {
     display: flex;
     flex-direction: column;
-
     input {
       width: 440px;
       height: 60px;
@@ -482,25 +439,24 @@ body.lock-b {
       line-height: 20px;
       margin-bottom: 30px;
     }
-
     input:focus {
       border: 1px solid rgb(251, 216, 70);
     }
-
     input::placeholder {
       color: rgb(176, 176, 176);
       font-size: 16px;
       font-weight: 400;
       line-height: 20px;
     }
-
     button {
       padding: 20px 0;
       border-radius: 30px;
       box-shadow: 5px 8px 5px 0px rgba(248, 204, 85, 0.1);
-      background: linear-gradient(268.28deg,
-          rgb(251, 216, 70) 0.021%,
-          rgb(255, 232, 136) 99.967%);
+      background: linear-gradient(
+        268.28deg,
+        rgb(251, 216, 70) 0.021%,
+        rgb(255, 232, 136) 99.967%
+      );
 
       color: rgb(51, 51, 51);
       font-size: 20px;
@@ -509,7 +465,6 @@ body.lock-b {
       margin-bottom: 15px;
     }
   }
-
   .p-bottom {
     color: rgb(115, 115, 115);
     font-size: 10px;
@@ -518,14 +473,12 @@ body.lock-b {
     text-align: center;
   }
 }
-
 .application__left {
   img {
     width: 98.83px;
     height: 98.83px;
   }
 }
-
 .application__right {
   p:first-child {
     color: rgb(51, 51, 51);
@@ -534,7 +487,6 @@ body.lock-b {
     line-height: 20px;
     margin-bottom: 13px;
   }
-
   p:nth-child(2) {
     color: rgb(176, 176, 176);
     font-size: 16px;
@@ -542,7 +494,6 @@ body.lock-b {
     line-height: 20px;
     margin-bottom: 3px;
   }
-
   p:last-child {
     color: rgb(153, 203, 56);
     font-size: 20px;
@@ -550,21 +501,17 @@ body.lock-b {
     line-height: 24px;
   }
 }
-
 .popup-link-1-close {
   position: absolute;
   top: 30px;
   right: 30px;
 }
-
 /* SLIDER */
 .slider {
   position: relative;
-  max-width: 1140px;
-  /* Ширина для трех слайдов */
+  max-width: 1140px; /* Ширина для трех слайдов */
   margin: auto;
   overflow: hidden;
-
   button {
     position: absolute;
     top: 45%;
@@ -576,7 +523,6 @@ body.lock-b {
     height: 50px;
     border-radius: 50%;
     background: rgb(51, 51, 51);
-
     img {
       width: 11.44px;
       height: 18.56px;
@@ -592,7 +538,6 @@ body.lock-b {
 .slide {
   min-width: 34.34%;
   box-sizing: border-box;
-
   img {
     width: 360px;
     height: 360px;
@@ -607,19 +552,16 @@ body.lock-b {
   right: 10px;
   transform: rotate(180deg);
 }
-
 @media (max-width: 1150px) {
   .slide img {
     width: 320px;
     height: 320px;
   }
 }
-
 /* Адаптив для экранов шириной до 768px */
 @media (max-width: 1000px) {
   .slide {
-    min-width: 50%;
-    /* 2 слайда на экране 768px */
+    min-width: 50%; /* 2 слайда на экране 768px */
     display: flex;
     justify-content: center;
   }
